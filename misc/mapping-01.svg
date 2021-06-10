@@ -23,9 +23,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="303.10182"
-     inkscape:cy="17.639768"
+     inkscape:zoom="1.4"
+     inkscape:cx="84.50887"
+     inkscape:cy="53.006955"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,7 +58,7 @@
      transform="translate(-5.8272134,-55.501148)">
     <path
        id="rect2691"
-       style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#808080;stroke-width:0.529167;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none;paint-order:normal;stop-color:#000000"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#808080;stroke-width:0.529167;stroke-linecap:square;stroke-miterlimit:10;stroke-dasharray:none;paint-order:normal;stop-color:#000000"
        d="M 6.0917969,55.765732 H 72.237633 V 94.924065 H 6.0917969 Z" />
     <path
        id="rect2100-8-3"
@@ -246,7 +246,7 @@
     </g>
     <path
        id="rect2100-8-3-10-0-1-9"
-       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#808080;stroke-width:0.529167;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;stop-color:#000000;stop-opacity:1"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#cccccc;fill-opacity:1;stroke:#808080;stroke-width:0.529167;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;stop-color:#000000;stop-opacity:1"
        d="M 6.0917969,89.632401 H 72.237633 v 5.291666 H 6.0917969 Z" />
     <g
        aria-label="Sheets:"
