@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="511.99887"
+   height="185.78412"
+   viewBox="0 0 135.46636 49.155383"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="doc-logo.svg"
+   inkscape:export-filename="/tmp/sp.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient883">
+      <stop
+         style="stop-color:#007b40;stop-opacity:1;"
+         offset="0"
+         id="stop879" />
+      <stop
+         style="stop-color:#00a97e;stop-opacity:1"
+         offset="1"
+         id="stop881" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient883"
+       id="radialGradient1496"
+       cx="165.94852"
+       cy="251.14174"
+       fx="165.94852"
+       fy="251.14174"
+       r="169.33333"
+       gradientTransform="matrix(1.6642196,0,0,1.1675342,-110.22625,-125.31236)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient883"
+       id="linearGradient3128"
+       x1="285.58957"
+       y1="83.769073"
+       x2="214.66484"
+       y2="20.703123"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.26458333,0,0,0.26458333,0.01274157,9.9999942e-8)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="411.59049"
+     inkscape:cy="263.78101"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1772"
+     inkscape:window-height="968"
+     inkscape:window-x="2413"
+     inkscape:window-y="295"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.01274437)">
+    <path
+       id="path2191-9"
+       style="fill:url(#linearGradient3128);fill-opacity:1;stroke:none;stroke-width:0.150001;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:markers stroke fill;stop-color:#000000"
+       d="M 67.733333,2.9999999e-7 A 13.229167,13.229167 0 0 0 54.504165,13.229166 13.229167,13.229167 0 0 0 67.733333,26.458333 13.229167,13.229167 0 0 0 80.9625,13.229166 13.229167,13.229167 0 0 0 67.733333,2.9999999e-7 Z M 58.431574,5.4777013 h 18.086855 v 9.2672397 1.653696 4.581995 H 58.431574 v -4.581995 -1.653696 -3.03155 -1.653645 -3.8068977 z m 1.550293,1.550293 v 3.0317517 h 6.66621 V 7.0279943 Z m 8.319857,0 v 3.0317517 h 6.666412 V 7.0279943 Z m -8.319857,4.6853967 v 3.03155 h 6.66621 v -3.03155 z m 8.319857,0 v 3.03155 h 6.666412 v -3.03155 z m -8.319857,4.685246 v 3.031702 h 6.66621 v -3.031702 z m 8.319857,0 v 3.031702 h 6.666412 v -3.031702 z" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:17.6004px;line-height:100%;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Light';font-feature-settings:italic;text-align:end;text-decoration:none;text-decoration-line:none;text-decoration-color:#000000;text-anchor:end;fill:#008148;fill-opacity:1;stroke:none;stroke-width:15.875;stroke-linecap:square;stroke-miterlimit:10;paint-order:markers stroke fill;stop-color:#000000;"
+       x="67.256073"
+       y="45.494362"
+       id="text1500-9"><tspan
+         sodipodi:role="line"
+         id="tspan1498-3"
+         x="67.256081"
+         y="45.494362"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'MesloLGL Nerd Font';-inkscape-font-specification:'MesloLGL Nerd Font';text-align:center;text-anchor:middle;fill:#008148;fill-opacity:1;stroke-width:15.875;">pydantic-xlsx</tspan></text>
+  </g>
+</svg>
