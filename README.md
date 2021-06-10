@@ -45,7 +45,7 @@ class Company(XlsxModel):
 
 
 my_company = Company(staff=[
-	Employee(name="Morio Rossi", age=42, wage=4200, function=Function.boss)
+	Employee(name="Morio Rossi", age=42, wage=4200, function=Function.boss),
 	Employee(name="John Doe", age=23, wage=2300, function=Function.worker)
 ])
 
@@ -55,7 +55,7 @@ my_company.to_file("my-company.xlsx")
 
 ## Mapping/Composition
 
-Unlike data formates supported by pydantic (like [JSON](https://en.wikipedia.org/wiki/JSON) or [YAML](https://en.wikipedia.org/wiki/YAML)) spreadsheets do not have an straight forward way of arbitrary nesting of data structures. This quickly become a problem if your model describes some lists of lists or alike. Undressed this will lead to a wide range of undefined behavior when translating a pydantic model to a spreadsheets. To circumvent this pydantic-xlsx only allows a defined range of nested data structures to be a valid input. This section gives an overview about this types and their mapping into spreadsheets (this process is internally known as »composition«).
+Unlike data formates supported by pydantic (like [JSON](https://en.wikipedia.org/wiki/JSON) or [YAML](https://en.wikipedia.org/wiki/YAML)) spreadsheets do not have an straight forward way of arbitrary nesting data structures. This quickly become a problem if your model describes some lists of lists or alike. Undressed this will lead to a wide range of undefined behavior when translating a pydantic model to a spreadsheets. To circumvent this pydantic-xlsx only allows a defined range of nested data structures to be a valid input. This section gives an overview about this types and their mapping into spreadsheets (this process is internally known as »composition«).
 
 
 ### Single Model
