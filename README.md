@@ -96,7 +96,7 @@ As you see the Excel sheet is named after your Model Class (`Employee`) which co
 
 ### Collection
  
-![Collection mapping](misc/mapping-013svg)
+![Collection mapping](misc/mapping-03.svg)
 
 
 ## Types
