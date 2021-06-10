@@ -12,13 +12,14 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/72nd/pydantic-xlsx",
+    license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.6",
-    packages=setuptools.find_packages(),
+    packages=["pydantic_xlsx"],
     install_requires=[
         "openpyxl==3.0.7",
         "pydantic==1.8.2",
