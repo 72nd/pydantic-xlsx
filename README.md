@@ -1,12 +1,17 @@
 # pydantic-xlsx
 
  <p align="center">
-  <img width="100" src="misc/logo.png">
+  <img width="100" src="./misc/logo.png">
 </p>
 
 This Python library tries to ease parsing and dumping data from and to Excel's xlsx (also known as [Office Open XML Workbook](https://en.wikipedia.org/wiki/Office_Open_XML)) with the help of [pydantic](https://pydantic-docs.helpmanual.io/) models. It uses [openpyxl](https://openpyxl.readthedocs.io/) to interact with the Excel files. As with pydantic you define the structure of your in- or output xlsx file as a pydantic model. 
 
 As with pydantic you define the structure of your data as Models with the help of Python's typing system.
+
+
+## State of the project
+
+Alpha state. This package started as a module within another application. I'm currently extracting pydantic-xlsx from this project. So expect some rough edges and missing documentation.
 
 
 ## Motivation
