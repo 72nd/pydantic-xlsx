@@ -52,6 +52,15 @@ my_company = Company(staff=[
 my_company.to_file("my-company.xlsx")
 ```
 
+![Resulting Xlsx File](misc/example.png)
+
+You can parse the file using the `from_file` method.
+
+```python
+loaded_company = Company.from_file("my-company.xlsx")
+print(loaded_company)
+```
+
 
 ## Mapping/Composition
 
