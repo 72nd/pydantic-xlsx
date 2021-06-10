@@ -1,7 +1,7 @@
 # pydantic-xlsx
 
  <p align="center">
-  <img width="140" src="misc/logo.png">
+  <img width="100" src="misc/logo.png">
 </p>
 
 This Python library tries to ease parsing and dumping data from and to Excel's xlsx (also known as [Office Open XML Workbook](https://en.wikipedia.org/wiki/Office_Open_XML)) with the help of [pydantic](https://pydantic-docs.helpmanual.io/) models. It uses [openpyxl](https://openpyxl.readthedocs.io/) to interact with the Excel files. As with pydantic you define the structure of your in- or output xlsx file as a pydantic model. 
@@ -84,7 +84,7 @@ employee.to_file("employee.xlsx")
 
 Will result in the following file:
 
-![Single Model Mapping File](misc/mapping-01.png)
+![Single Model Mapping File](misc/mapping-01.svg)
 
 As you see the Excel sheet is named after your Model Class (`Employee`) which contains a single row of data. Single Model Mapping can only represents a single entry of data thus is not very helpful in most cases.
 
