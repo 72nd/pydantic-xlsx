@@ -52,6 +52,8 @@ my_company = Company(staff=[
 my_company.to_file("my-company.xlsx")
 ```
 
+Results in the following file:
+
 ![Resulting Xlsx File](misc/example.png)
 
 You can parse the file using the `from_file` method.
