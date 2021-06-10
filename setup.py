@@ -19,4 +19,8 @@ setuptools.setup(
     ],
     python_requires=">=3.6",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "openpyxl==3.0.7",
+        "pydantic==1.8.2",
+    ]
 )
