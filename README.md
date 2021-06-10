@@ -8,24 +8,19 @@ This Python library tries to ease parsing and dumping data from and to Excel's x
 
 As with pydantic you define the structure of your data as Models with the help of Python's typing system.
 
+You can find the API documentation [here](https://72nd.github.io/pydantic-xlsx/pydantic_xlsx.html).
 
 ## State of the project
 
 Alpha state. This package started as a module within another application. I'm currently extracting pydantic-xlsx from this project. So expect some rough edges and missing documentation.
 
 
-## API documentation
-
-You can find the API documentation [here](https://72nd.github.io/pydantic-xlsx/pydantic_xlsx.html).
-
-## Motivation
+## Motivation and Overview
 
 First of all: If there is another way to accomplish your goal without using spreadsheet software or data formats _do it._ Spreadsheets have many drawbacks in contrasts to »real« databases and programming. Consider using [Jupyter](https://jupyter.org/) if you need some sort of interaction with your data.
 
 This package was written for circumstances where you're forced to work with spreadsheet files. The goal of pydantic-xlsx is to make the interaction with such data sources/environments as comfortable as possible while enforcing as much data validation as possible. Another more or less legit use case for this library is the ability to get a quick overview over your data for debugging.
 
-
-## Overview
 
 To get a first glimpse consider the following example:
 
@@ -76,7 +71,18 @@ loaded_company = Company.from_file("my-company.xlsx")
 print(loaded_company)
 ```
 
-_A word on the Config sub-class._ Inside the Employee model the `Config` sub-class sets two fairly common pydantic options when working with Excel files. `use_enum_values` represents enums as their values and not as a classpath without this option »Boss« would be represented as `function.boss` and »Worker« as `function.worker`. Using the enum value makes the spreadsheet more user-friendly. By setting `allow_population_by_field_name` to `True` you can define alternative column names by setting the `alias` property of a field.
+_A word on the Config sub-class:_ Inside the Employee model the `Config` sub-class sets two fairly common pydantic options when working with Excel files. `use_enum_values` represents enums as their values and not as a classpath without this option »Boss« would be represented as `function.boss` and »Worker« as `function.worker`. Using the enum value makes the spreadsheet more user-friendly. By setting `allow_population_by_field_name` to `True` you can define alternative column names by setting the `alias` property of a field.
+
+
+## Features
+
+- In-/Exporting structured data from/to Excel while benefiting from Pydantic's mature features like data validation.
+- The correct Excel number-format is applied according to the field's data type. It's also possible to customize the formatting for a specific field.
+- Define document wide fonts as well as alter the font for columns.
+- Enums columns provides the spreadsheet user with a drop-down menu showing all allowed values.
+- The data is referenced as a [Worksheet Table](https://support.microsoft.com/en-us/office/overview-of-excel-tables-7ab0bb7d-3a9e-4b56-a3c9-6c94334e492c) in the Xlsx document. Providing more information on the structure of the data and fast sorting per column.
+- Internal money field type which generates the correct Excel number-format. Some currencies (like Euro or US Dollar) are already defined others can be easily created.
+- The format for printing can be controlled withing pydantic_xlsx.
 
 
 ## Mapping/Composition
