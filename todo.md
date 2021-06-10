@@ -1,12 +1,12 @@
 # Todo pydantic-xlsx
 
 - [ ] Import Tests
-- [ ] Add License file
-- [ ] API Documentation
+- [x] Add License file
+- [x] API Documentation
 - [ ] Readme done
-- [ ] License
-- [ ] Fix `alias` bug
-- [ ] Fix Enum bug (save value to excel)
+- [x] License
+- [x] Fix `alias`
+- [x] Fix Enum (save value to excel)
 - [ ] Package Version
 - [ ] Publish to PyPi
 

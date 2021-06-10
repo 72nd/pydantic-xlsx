@@ -5,6 +5,8 @@ functionality should only be used for data types which need altering additional
 cell properties like number format. When only the value of a cell is altered
 there should be another way of implementing the needed functionality by using
 classes extending the primitive types which can be represented in a Excel cell.
+
+Currently not used.
 """
 
 from abc import ABCMeta, abstractmethod

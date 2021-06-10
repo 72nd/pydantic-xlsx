@@ -48,6 +48,10 @@ class Employee(XlsxModel):
 	wage: Euro
 	function: Function
 
+    class Config:
+        use_enum_values = True
+        allow_population_by_field_name = True
+
 
 class Company(XlsxModel):
 	staff: List[Employee]
@@ -71,6 +75,8 @@ You can parse the file using the `from_file` method.
 loaded_company = Company.from_file("my-company.xlsx")
 print(loaded_company)
 ```
+
+_A word on the Config sub-class._ Inside the Employee model the `Config` sub-class sets two fairly common pydantic options when working with Excel files. `use_enum_values` represents enums as their values and not as a classpath without this option »Boss« would be represented as `function.boss` and »Worker« as `function.worker`. Using the enum value makes the spreadsheet more user-friendly. By setting `allow_population_by_field_name` to `True` you can define alternative column names by setting the `alias` property of a field.
 
 
 ## Mapping/Composition
@@ -110,6 +116,7 @@ As you see the Excel sheet is named after your Model Class (`Employee`) which co
 
 ## Types
 
+_Todo._
 
 
 ## Field options
@@ -117,7 +124,7 @@ As you see the Excel sheet is named after your Model Class (`Employee`) which co
 
 ## Document options
 
-The library tries to output spreadsheets with some reasonable styles and tweaks. By defining the inner `Config` class in your model, you can control this behavior and the appearance of the output document. For more information you can consult the documentation on the `XlsxConfig` class (TODO: insert link).
+The library tries to output spreadsheets with some reasonable styles and tweaks. By defining the inner `Config` class in your model, you can control this behavior and the appearance of the output document. For more information you can consult the documentation on the [`XlsxConfig` class](https://72nd.github.io/pydantic-xlsx/pydantic_xlsx/config.html#XlsxConfig).
 
 
 ### Header font (`header_font`)
