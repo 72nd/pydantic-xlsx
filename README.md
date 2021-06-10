@@ -84,7 +84,9 @@ employee.to_file("employee.xlsx")
 
 Will result in the following file:
 
-TODO: Image
+![Single Model Mapping File](misc/mapping-01.png)
+
+As you see the Excel sheet is named after your Model Class (`Employee`) which contains a single row of data. Single Model Mapping can only represents a single entry of data thus is not very helpful in most cases.
 
 
 ### Root collection
