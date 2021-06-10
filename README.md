@@ -8,14 +8,12 @@ This Python library tries to ease parsing and dumping data from and to Excel's x
 
 As with pydantic you define the structure of your data as Models with the help of Python's typing system.
 
-_Motivation._ Todo.
-
 
 ## Motivation
 
 First of all: If there is another way to accomplish your goal without using spreadsheet software or data formats _do it._ Spreadsheets have many drawbacks in contrasts to »real« databases and programming. Consider using [Jupyter](https://jupyter.org/) if you need some sort of interaction with your data.
 
-This package was written for circumstances where you're forced to work with spreadsheet files. The goal of pydantic-xlsx is to make the interaction with such data sources/environments as comfortable as possible while enforcing as much data validation as possible. Another more or less legit use case for this library is the ability to get a quick overview over large amounts of data for debugging.
+This package was written for circumstances where you're forced to work with spreadsheet files. The goal of pydantic-xlsx is to make the interaction with such data sources/environments as comfortable as possible while enforcing as much data validation as possible. Another more or less legit use case for this library is the ability to get a quick overview over your data for debugging.
 
 
 ## Overview
