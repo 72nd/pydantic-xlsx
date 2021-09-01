@@ -38,7 +38,7 @@ class Function(str, Enum):
 
 
 class Employee(XlsxModel):
-	name: str = XlsxField(alias="Full Name")
+	name: str = XlsxField("", alias="Full Name")
 	age: int
 	wage: Euro
 	function: Function
