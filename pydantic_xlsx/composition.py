@@ -342,11 +342,12 @@ class CollectionComposition(Composition):
         for prop in model.__fields__.values():
             ws = wb[prop.alias]
             data[prop.alias] = []
+            current_model = model.__fields__[prop.alias].type_
             for row in range(2, ws.max_row+1):
                 entry: Dict[str, Any] = {}
                 for column in range(1, ws.max_column+1):
                     key = ws.cell(row=1, column=column).value
-                    if model._ignore_key(key):
+                    if current_model._ignore_key(key):
                         continue
                     entry[key] = ws.cell(row=row, column=column).value
                 data[prop.alias].append(entry)
