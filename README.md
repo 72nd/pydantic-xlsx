@@ -130,7 +130,18 @@ _Todo._
 
 ## Field options
 
-_Todo._
+You can alter the appearance and behavior of columns by using `XlsxField`. The available options are defined in the [`XlsxFieldInfo` Class](https://72nd.github.io/pydantic-xlsx/pydantic_xlsx/fields.html#XlsxFieldInfo).
+
+
+### Font (`font`)
+
+Alter the font of a specific field. The fonts are defined using the [openpyxl Font](https://openpyxl.readthedocs.io/en/stable/api/openpyxl.styles.fonts.html) object (see above for an example).
+
+
+### Number Format (`number_format`)
+
+Optional Excel number format code to alter the display of numbers, dates and so on. Pleas refer to the [Excel documentation](https://support.microsoft.com/en-us/office/number-format-codes-5026bbd6-04bc-48cd-bf33-80f18b4eae68) to learn more about the syntax.
+
 
 
 ## Document options
@@ -140,7 +151,7 @@ The library tries to output spreadsheets with some reasonable styles and tweaks.
 
 ### Header font (`header_font`)
 
-The library expects the first row of every sheet to contain the names of field. Use this option to alter the appearance of this row by defining your own [openpyxl Font](https://openpyxl.readthedocs.io/en/stable/api/openpyxl.styles.fonts.html) (learn more about styling with openpyxl [here](https://openpyxl.readthedocs.io/en/stable/styles.html)). The field defaults to `openpyxl.styles.Fonts(name="Arial", bold=true)`.
+The library expects the first row of every sheet to contain the names of field. Use this option to alter the appearance of this row by defining your own [openpyxl Font](https://openpyxl.readthedocs.io/en/stable/api/openpyxl.styles.fonts.html) (learn more about styling with openpyxl [here](https://openpyxl.readthedocs.io/en/stable/styles.html)). The field defaults to `openpyxl.styles.Font(name="Arial", bold=True)`.
 
 
 ### Font (`font`)
