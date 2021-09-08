@@ -51,6 +51,9 @@ class Employee(XlsxModel):
 class Company(XlsxModel):
 	staff: List[Employee]
 
+	class Config:
+		freeze_cell = "A2"
+
 
 my_company = Company(staff=[
 	Employee(name="Morio Rossi", age=42, wage=4200, function=Function.boss),
@@ -126,6 +129,8 @@ _Todo._
 
 
 ## Field options
+
+_Todo._
 
 
 ## Document options
