@@ -163,4 +163,13 @@ Optional [openpyxl Font](https://openpyxl.readthedocs.io/en/stable/api/openpyxl.
 
 Freezing cells makes them visible while scrolling trough your document (learn more in the [Excel documentation](https://support.microsoft.com/en-us/office/freeze-panes-to-lock-rows-and-columns-dab2ffc9-020d-4026-8121-67dd25f2508f)). This is especially to pin the header row. This is also what pydantic-xlsx is doing by default (freeze cell at `A2`) 
 
-TODO: The rest
+_Todo: The rest_
+
+
+## Known pitfalls
+
+### Massive amount of empty cells when loading a Spreadsheet with data validation (Generics)
+
+_Cause:_ pydantic-xlsx uses a method of openpyxl to determine the dimension of the data area (aka the part of the spreadsheet actually containing some data). A cell is treated as non-empty (thus expanding the size of the imported area) from the point some properties where set for this cell. Defining a valid data range is on of them. If a user accidentally define a valid data range for the whole column you end up with pydanic-xlsx trying to import and validate thousands of seemingly empty rows.
+
+_Solution._ This is exactly why you shouldn't use spreadsheets in the first place. The only solution is to manually delete all formatting etc from _all_ worksheets. Or just copy the relevant data into a new spreadsheet (including the header).
