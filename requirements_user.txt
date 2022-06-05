@@ -1,0 +1,23 @@
+# user devcontainer convenience
+# ~~~~~~~ vscode extensions support ~~~~~~~
+# esbonio~=0.10.2  # this forces a `pygls` install that is
+#                    not compatible with pydantic 1.9.0
+
+# ~~~~~~~ project docs/examples ~~~~~~~
+SQLAlchemy==1.4.33
+orjson==3.6.7
+ujson==5.1.0
+
+# ~~~~~~~ awesome development ~~~~~~~
+beautifulsoup4==4.10.0
+#Cython==0.29.26;sys_platform!='win32'  # in requirements.txt
+#devtools==0.8.0                        # in requirements.txt
+pandas==1.4.1
+#python-dotenv==0.19.2                  # in requirements.txt
+#typing-extensions==4.0.1               # in requirements.txt
+
+# ~~~~~~~ notebooks & visualization ~~~~~~~
+ipykernel~=6.11.0
+jupyterlab~=3.3.2
+matplotlib~=3.5.1
+seaborn~=0.11.2
