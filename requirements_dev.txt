@@ -1,22 +1,18 @@
 # dev devcontainer convenience
-# ~~~~~~~ tox.ini ~~~~~~~
-# none
-
 # ~~~~~~~ setup.py ~~~~~~~
 openpyxl~=3.0.7
 pydantic~=1.8.2
 
 # ~~~~~~~ setup.cfg ~~~~~~~
-pytest==6.2.5
-flake8
-coverage==6.3.2
-isort
-mypy==0.931
+# none
 
 # ~~~~~~~ pyproject.toml ~~~~~~~
 # none
 
-# ~~~~~~~ mkdocs.yml ~~~~~~~
+# ~~~~~~~ docs ~~~~~~~
+pdoc
+
+# ~~~~~~~ tox.ini ~~~~~~~
 # none
 
 # ~~~~~~~ pre-commit-config.yaml ~~~~~~~
@@ -24,10 +20,3 @@ mypy==0.931
 
 # ~~~~~~~ bitbucket-pipelines.yml ~~~~~~~
 # none
-
-# ~~~~~~~ future use ~~~~~~~
-# from vsc
-click~=8.1.2
-black~=22.3.0
-ruamel.yaml~=0.17.21
-uvloop~=0.16.0
