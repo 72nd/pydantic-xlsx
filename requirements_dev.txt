@@ -1,0 +1,22 @@
+# dev devcontainer convenience
+# ~~~~~~~ setup.py ~~~~~~~
+openpyxl~=3.0.7
+pydantic~=1.8.2
+
+# ~~~~~~~ setup.cfg ~~~~~~~
+# none
+
+# ~~~~~~~ pyproject.toml ~~~~~~~
+# none
+
+# ~~~~~~~ docs ~~~~~~~
+pdoc
+
+# ~~~~~~~ tox.ini ~~~~~~~
+# none
+
+# ~~~~~~~ pre-commit-config.yaml ~~~~~~~
+# none
+
+# ~~~~~~~ bitbucket-pipelines.yml ~~~~~~~
+# none

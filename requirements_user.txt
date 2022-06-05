@@ -1,0 +1,12 @@
+# user devcontainer convenience
+# ~~~~~~~ vscode extensions support ~~~~~~~
+# none
+
+# ~~~~~~~ examples ~~~~~~~
+# none
+
+# ~~~~~~~ notebooks & visualization ~~~~~~~
+ipykernel~=6.11.0
+jupyterlab~=3.3.2
+matplotlib~=3.5.1
+seaborn~=0.11.2
